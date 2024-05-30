@@ -1,0 +1,28 @@
+/* Ensure full height for HTML and body, and center content using flexbox */
+html, body {
+    height: 100%; /* Full height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background: linear-gradient(to top, #123456, #abcdef); /* Background gradient */
+    font-family: 'Courier New', Courier, monospace; /* Set font family */
+}
+
+/* Style the game container */
+#game-container {
+    width: 80%; /* Width of the container */
+    max-width: 600px; /* Maximum width */
+    text-align: center; /* Center text */
+}
+
+/* Style the canvas element */
+canvas {
+    display: block; /* Make canvas a block element */
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #123456; /* Border around the canvas */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
